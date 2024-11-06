@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:"Afacad Flux", sans-serif; 
+    margin: 0px;;
+    padding: 0px;
+}
+
+.res{
+    border-radius: 8px;
+    height: max-content;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin: 50px;
+}
+
+#select{
+    border-radius: 8px;
+    height: max-content;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: transparent;
+}
+
+#selectheading h1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    font-size: 70px;
+    text-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    text-shadow: 2px 2px 4px #ffd900 ;
+}
+
+#select button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    text-wrap:nowrap;
+    background-color: transparent;
+    color: white;
+    border-color: #ffd900;
+    border-style:dashed;
+    text-shadow: 2px 2px 4px #ffd900 ;
+}
+
+#select button:hover{
+    background-color: #ffd900;
+    color: black;
+}
+
+.container-form{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    background-image: url("bg1-crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#heading{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+.container-form h1{
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    font-style:normal;
+    font-size: 47px;
+    margin: 0 0 0;
+}
+
+.res-form{
+    position: relative;
+    border-radius: 8px;
+    height: max-content;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+#checkreservation{
+    display: none;
+}
+
+#reserve{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    
+}
+
+form input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+form button{
+    background-color: #ffd900;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: black;
+    color: #ffd900;
+}
+
+
+@media screen and (max-width:600px) {
+    #checkreservation{
+        display: none;
+    }
+    
+    #reserve{
+        display: none;
+    }
+    
+    .container-form{
+        flex-direction: column;
+    }
+
+    .container-form h1{
+        font-size:38px;
+        text-wrap: nowrap;
+    }
+
+    .res{
+        position: fixed;
+        width: max-content;
+    }
+
+    #selectheading h1{
+        font-size: 45px;
+        text-wrap: nowrap;
+    }
+
+    #select{
+        flex-direction: column;
+    }
+
+    #select button{
+        margin: 5px;
+        font-size: 15px;
+    }
+
+    .res-form{
+        height: max-content;
+        width: 40vh;  
+    }
+}

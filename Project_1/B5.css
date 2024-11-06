@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+:root {
+    --clr-white: #ffffff;
+    --clr-dark: #373737;
+    --clr-light: #ededed;
+    --clr-light-2: #979797;
+    --clr-light-3: #646464;
+    --clr-primary: #C52031;
+    --clr-yellow: #F8C400;
+    --clr-primary-light: #FFF6F6;
+
+    --font8: 8px;
+    --font9: 9px;
+    --font10: 10px;
+    --font11: 11px;
+    --font12: 12px;
+    --font13: 13px;
+    --font14: 14px;
+    --font15: 15px;
+    --font16: 16px;
+    --font17: 17px;
+    --font18: 18px;
+    --font20: 20px;
+}
+
+html,
+body {
+    margin: 0;
+    font-family:"Afacad Flux",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+body.modal-open {
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-check:focus+.btn,
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-primary {
+    border: 0;
+    font-size: var(--font13);
+    color: var(--clr-dark);
+    font-weight: 500;
+    padding: 7px 10px;
+    background-color: var(--clr-yellow);
+    border-radius: 6px;
+    min-width: 70px;
+}
+
+.btn-check:active+.btn-primary,
+.btn-check:checked+.btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show>.btn-primary.dropdown-toggle,
+.btn-primary:hover {
+    color: var(--clr-dark);
+    background-color: var(--clr-yellow);
+    border-color: var(--clr-yellow);
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+    background-color: var(--clr-yellow);
+    border-color: var(--clr-yellow);
+    box-shadow: none;
+    color: var(--clr-dark);
+}
+
+.back-btn {
+    position: fixed;
+    right: 0;
+    background: var(--clr-yellow);
+    border-radius: 17px 0px 0px 17px;
+    font-family: "Afacad Flux",sans-serif;
+    font-size: var(--font12);
+    top: 106px;
+    z-index: 1;
+    padding: 5px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.back-btn-arrow {
+    background-color: var(--clr-white);
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 5px;
+}
+#itemsection__other{
+    padding-top: 100px;
+}
+
+.menu-item-wrapper .menu-item-title {
+    font-family:"Afacad Flux",sans-serif;
+    font-size: var(--font14);
+    font-weight: 500;
+    color: var(--clr-dark);
+}
+
+.menu-item-wrapper .menu-item-price {
+    font-family: "Afacad Flux",sans-serif;
+    font-weight: 500;
+    color: var(--clr-dark);
+}
+
+.menu-item-wrapper .menu-item-description {
+    font-family: "Afacad Flux",sans-serif;
+    font-size: var(--font12);
+    color: var(--clr-light-2);
+}
+
+.card {
+    box-shadow: 0 0 5px #4443435d;
+}
+
+
+@media (max-width:380px) {
+
+    .bogo-sec .product-add,
+    .ui-rounded .bogo-sec .product-add {
+        min-width: 65px;
+        padding: 6px;
+    }
+
+    .login-page-btn {
+        padding: 20px 4px;
+    }
+
+    .requestbillpopup {
+        order: 1;
+        flex-basis: calc(56% - 10px);
+    }
+
+    .order-food-btn {
+        order: 2;
+        flex-basis: calc(45% - 10px);
+    }
+
+    .requestbillpopup-review-home .login-page-btn {
+        max-width: 190px;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .login-page-btn {
+        font-size: var(--font13);
+    }
+
+    .requestbillpopup-review-home .login-page-btn {
+        max-width: 170px;
+    }
+}
