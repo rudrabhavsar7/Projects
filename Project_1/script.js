@@ -23,9 +23,4 @@ document.getElementById("checkreservationbutton").addEventListener("click", func
 
 })
 
-const submit=document.querySelector(".submitbtn");
-
-submit.addEventListener("click",function(){
-  alert("hii");
-})
 

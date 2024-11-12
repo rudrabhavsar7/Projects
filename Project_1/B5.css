@@ -45,49 +45,6 @@ a{
     text-decoration: none;
 }
 
-.btn-check:focus+.btn,
-.btn:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-.btn-primary {
-    border: 0;
-    font-size: var(--font13);
-    color: var(--clr-dark);
-    font-weight: 500;
-    padding: 7px 10px;
-    background-color: var(--clr-yellow);
-    border-radius: 6px;
-    min-width: 70px;
-}
-
-.btn-check:active+.btn-primary,
-.btn-check:checked+.btn-primary,
-.btn-primary.active,
-.btn-primary:active,
-.show>.btn-primary.dropdown-toggle,
-.btn-primary:hover {
-    color: var(--clr-dark);
-    background-color: var(--clr-yellow);
-    border-color: var(--clr-yellow);
-}
-
-.btn-check:active+.btn-primary:focus,
-.btn-check:checked+.btn-primary:focus,
-.btn-primary.active:focus,
-.btn-primary:active:focus,
-.show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: none;
-}
-
-.btn-check:focus+.btn-primary,
-.btn-primary:focus {
-    background-color: var(--clr-yellow);
-    border-color: var(--clr-yellow);
-    box-shadow: none;
-    color: var(--clr-dark);
-}
 
 .back-btn {
     position: fixed;

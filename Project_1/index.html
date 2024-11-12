@@ -17,6 +17,12 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <style>
+        .blur-effect:hover > :not(:hover){
+        filter: blur(5px);
+        opacity: 0.5;
+        }
+    </style>
 </head>
 
 <body>
@@ -98,10 +104,10 @@
     </div>
     <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
+            <div class="col-12">
                     <h1 class="menu-section-heading">Explore Menu</h1>
                 </div>
+            <div class="row blur-effect">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="shadow menu-item-card p-3 mb-3">
                         <img src="Mocktail.png" class=" menu-item-image w-100">
