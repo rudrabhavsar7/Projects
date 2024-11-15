@@ -344,3 +344,24 @@ img {
     }
 
 }
+
+::-webkit-scrollbar{
+    width: 1em;
+}
+
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 100vw;
+    margin-block: .5em;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #f8c400;
+    border-radius: 100vw;
+    border: .25em solid  #ffd900;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #ffd900;
+    
+}
