@@ -1,0 +1,59 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Login",
+      "request": "launch",
+      "mainClass": "electricitybillsystem.Login",
+      "projectName": "ElectricityBillingSystem_89f85028"
+    },
+    {
+      "type": "java",
+      "name": "NewCustomer",
+      "request": "launch",
+      "mainClass": "electricitybillsystem.NewCustomer",
+      "projectName": "JavaProject_51fd97a8"
+    },
+    {
+      "type": "java",
+      "name": "Splash",
+      "request": "launch",
+      "mainClass": "electricitybillsystem.Splash",
+      "projectName": "JavaProject_51fd97a8"
+    },
+    {
+      "type": "java",
+      "name": "project",
+      "request": "launch",
+      "mainClass": "electricitybillsystem.project",
+      "projectName": "JavaProject_51fd97a8"
+    },
+    {
+      "type": "java",
+      "name": "signup",
+      "request": "launch",
+      "mainClass": "electricitybillsystem.signup",
+      "projectName": "JavaProject_51fd97a8"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/prectical/JavaProject/ElectricityBill/bin/electricitybillsystem",
+      "program": "d:/prectical/JavaProject/ElectricityBill/bin/electricitybillsystem/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

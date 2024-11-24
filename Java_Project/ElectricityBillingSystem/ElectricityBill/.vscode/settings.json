@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\prectical\\JavaProject\\rs2xml.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
